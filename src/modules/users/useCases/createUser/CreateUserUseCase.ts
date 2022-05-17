@@ -1,9 +1,9 @@
-import { AppError } from 'src/errors/AppError';
-import { IHashProvider } from 'src/providers/hashProvider/IHashProvider';
 import { inject, injectable } from 'tsyringe';
 
 import { User } from '@modules/users/entities/User';
 import { IUsersRepository } from '@modules/users/repositories/IUsersRepository';
+import { AppError } from '@shared/errors/AppError';
+import { IHashProvider } from '@shared/providers/hashProvider/IHashProvider';
 
 import { CreateUserDTO } from './dtos/CreateUserDTO';
 
