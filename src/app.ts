@@ -1,4 +1,5 @@
 import 'express-async-errors';
+import './providers';
 import express, { NextFunction, Request, Response } from 'express';
 
 import { AppError } from './errors/AppError';
